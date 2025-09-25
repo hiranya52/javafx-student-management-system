@@ -8,38 +8,33 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DeleteStudentController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewStudentController">
     <children>
         <Label graphicTextGap="2.0" prefHeight="53.0" prefWidth="600.0" style="-fx-background-color: #02034b;" text="       DELETE STUDENT FORM" textFill="WHITE">
             <font>
                 <Font name="Arial Black" size="36.0" />
             </font>
         </Label>
-        <Label layoutX="52.0" layoutY="95.0" text="Batch No">
+        <Label layoutX="58.0" layoutY="190.0" text="NIC">
             <font>
                 <Font name="System Bold" size="15.0" />
             </font>
         </Label>
-        <Label layoutX="56.0" layoutY="163.0" text="NIC">
+        <Label layoutX="56.0" layoutY="135.0" prefHeight="19.0" prefWidth="39.0" text="Name">
             <font>
                 <Font name="System Bold" size="15.0" />
             </font>
         </Label>
-        <Label layoutX="56.0" layoutY="226.0" text="Name">
+        <Label layoutX="222.0" layoutY="248.0" text="DBMS Marks">
             <font>
                 <Font name="System Bold" size="15.0" />
             </font>
         </Label>
-        <Label layoutX="56.0" layoutY="294.0" text="Lecture Mode">
-            <font>
-                <Font name="System Bold" size="15.0" />
-            </font>
-        </Label>
-        <TextField layoutX="53.0" layoutY="118.0" prefHeight="26.0" prefWidth="111.0" />
-        <TextField layoutX="53.0" layoutY="185.0" prefHeight="26.0" prefWidth="250.0" />
-        <TextField layoutX="54.0" layoutY="248.0" prefHeight="26.0" prefWidth="316.0" />
-        <TextField layoutX="55.0" layoutY="318.0" prefHeight="26.0" prefWidth="134.0" />
-        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="370.0" layoutY="61.0">
+        <TextField layoutX="52.0" layoutY="89.0" prefHeight="26.0" prefWidth="183.0" />
+        <TextField layoutX="55.0" layoutY="210.0" prefHeight="26.0" prefWidth="250.0" />
+        <TextField layoutX="54.0" layoutY="157.0" prefHeight="26.0" prefWidth="316.0" />
+        <TextField layoutX="221.0" layoutY="269.0" prefHeight="26.0" prefWidth="134.0" />
+        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="384.0" layoutY="91.0">
             <image>
                 <Image url="@../img/icetLogo.png" />
             </image>
@@ -54,5 +49,22 @@
                 <Font name="System Bold Italic" size="15.0" />
             </font>
         </Button>
+        <Button layoutX="247.0" layoutY="88.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" style="-fx-background-color: #02034b;" text="Search" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="58.0" layoutY="247.0" text="PRF Marks">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <TextField layoutX="55.0" layoutY="269.0" prefHeight="26.0" prefWidth="134.0" />
+        <Label layoutX="55.0" layoutY="303.0" text="GPV">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <TextField layoutX="54.0" layoutY="324.0" prefHeight="26.0" prefWidth="134.0" />
     </children>
 </AnchorPane>
